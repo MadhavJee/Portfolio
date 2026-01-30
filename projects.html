@@ -1,42 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Projects</title>
+  <meta charset="UTF-8">
+  <title>Projects | Madhav Jee</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<header class="navbar">
+  <h2 class="logo">Madhav Jee</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
 <section class="section">
   <h2 class="section-title">Projects</h2>
 
-  <div class="grid">
-
-    <div class="project-card">
-      <h3>RestroPredict</h3>
-      <p>
-        ML-based restaurant success prediction system using Python,
-        Pandas, NumPy, and Random Forest (91% accuracy).
-      </p>
-    </div>
-
-    <div class="project-card">
-      <h3>CrimeView</h3>
-      <p>
-        Excel dashboard analyzing 18,000+ crime records using Pivot
-        Tables, Charts, and Slicers.
-      </p>
-    </div>
-
-    <div class="project-card">
-      <h3>DeadLockX</h3>
-      <p>
-        Python tool for automated deadlock detection using
-        Resource Allocation Graphs.
-      </p>
-    </div>
-
+  <section class="section projects-bg">
+  <div class="project-card">
+    <h3 class="project-title">RestroPredict</h3>
+    <p class="project-sub">Restaurant Success Prediction (Machine Learning)</p>
+    <!-- <h3>RestroPredict – Restaurant Success Prediction</h3> -->
+    <ul>
+      <li>Processed and cleaned 9,000+ Zomato restaurant records using Pandas and NumPy.</li>
+      <li>Performed feature engineering, encoding, and missing value handling.</li>
+      <li>Built predictive models using Linear Regression and Random Forest.</li>
+      <li>Achieved 91% accuracy in predicting restaurant ratings.</li>
+      <li>Identified key factors such as votes, pricing, and online ordering.</li>
+    </ul>
   </div>
+
+  <div class="project-card">
+    <h3 class="project-title">CrimeView</h3>
+    <p class="project-sub">LA Crime Insights Dashboard (Excel Analytics)</p>
+    <!-- <h3>CrimeView – LA Crime Insights Dashboard</h3> -->
+    <ul>
+      <li>Cleaned and organized 18,000+ crime records using MS Excel.</li>
+      <li>Built interactive dashboards using Pivot Tables, Charts, and Slicers.</li>
+      <li>Analyzed crime trends across areas, time slots, age groups, and genders.</li>
+      <li>Identified high-risk zones and peak crime periods.</li>
+    </ul>
+  </div>
+
+  <div class="project-card">
+    <!-- <h3>DeadLockX – Automated Deadlock Detection Tool</h3> -->
+    <h3 class="project-title">DeadLockX</h3>
+    <p class="project-sub">Automated Deadlock Detection Tool (Python)</p>
+
+    <ul>
+      <li>Developed using Python, NetworkX, and Matplotlib.</li>
+      <li>Constructed Resource Allocation Graphs for system processes.</li>
+      <li>Used cycle detection to identify deadlocks.</li>
+      <li>Designed a resolution module for automated and manual fixes.</li>
+    </ul>
+  </div>
+  </section>
+
 </section>
+
+<footer>
+  <p>© 2026 Madhav Jee</p>
+</footer>
 
 </body>
 </html>
