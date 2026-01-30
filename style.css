@@ -57,3 +57,17 @@ body {
 .card:hover {
   transform: scale(1.05);
 }
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
